@@ -1,0 +1,25 @@
+=meta: 0.0.2
+
+name: Devel-PerlLog
+version: 0.01
+abstract: Log Information When `perl` Runs
+homepage: https://metacpan.org/release/Devel-PerlLog
+language: perl
+license: perl
+copyright: 2011-2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/devel-perllog-pm
+  bug: https://github.com/ingydotnet/devel-perllog-pm/issues
+  irc: irc.freenode.net#pkg
+
+requires:
+  perl: 5.8.1
