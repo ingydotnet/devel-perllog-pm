@@ -8,7 +8,7 @@ See http://github.com/ingydotnet/swim-pm#readme
 
 =head1 NAME
 
-Devel::Local - Log Information When C<perl> Runs
+Devel::PerlLog - Log Information When C<perl> Runs
 
 =for html
 <a href="https://travis-ci.org/ingydotnet/devel-perlrun-pm"><img src="https://travis-ci.org/ingydotnet/devel-perlrun-pm.png" alt="devel-perlrun-pm"></a>
@@ -36,7 +36,7 @@ load this module using the C<PERL5OPT> environment variable.
 All the configuration options for this module are made as arguments to C<-
 MDevel::PerlLog>. For example:
 
-      export PERL5OPT="-MDevel::Perl5Log=$PWD/perl.log,all"
+      export PERL5OPT="-MDevel::PerlLog=$PWD/perl.log,all"
 
 This section documents the configuration options.
 
