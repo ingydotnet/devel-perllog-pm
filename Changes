@@ -1,4 +1,9 @@
 ---
+version: 0.03
+date:    Tue Dec 30 10:26:12 PST 2014
+changes:
+- Update prereqs to include YAML::XS
+---
 version: 0.02
 date:    Tue Dec 30 10:22:16 PST 2014
 changes:

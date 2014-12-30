@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Devel-PerlLog
-version: 0.02
+version: 0.03
 abstract: Log Information When `perl` Runs
 homepage: https://metacpan.org/release/Devel-PerlLog
 language: perl
@@ -23,3 +23,4 @@ devel:
 
 requires:
   perl: 5.8.1
+  YAML::XS: 0.55

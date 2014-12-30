@@ -1,6 +1,6 @@
 use strict; use warnings;
 package Devel::PerlLog;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Fcntl qw(:flock SEEK_END);
 use Time::HiRes;
