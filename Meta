@@ -1,12 +1,12 @@
 =meta: 0.0.2
 
 name: Devel-PerlLog
-version: 0.03
+version: 0.04
 abstract: Log Information When `perl` Runs
 homepage: https://metacpan.org/release/Devel-PerlLog
 language: perl
 license: perl
-copyright: 2011-2014
+copyright: 2011-2015
 
 author:
   name: Ingy döt Net
@@ -24,3 +24,5 @@ devel:
 requires:
   perl: 5.8.1
   YAML::XS: 0.55
+
+badge: travis
