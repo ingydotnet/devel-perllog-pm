@@ -82,7 +82,7 @@ sub add {
 #------------------------------------------------------------------------------
 
 sub do_argv {
-    $data{argv} = join ', ', @ARGV;
+    $data{argv} = join ', ', $0, @ARGV;
 }
 
 sub do_cwd {
